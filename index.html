@@ -35,7 +35,48 @@
 		.alert{
 		    display: none;
 		}
+		.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center; 
+  font-size:30px;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.float1{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:20px;
+	background-color:#4498ff;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index:100;
+}
+
+
+.my-float1{
+	margin-top:16px;
+}
+
 	</style>
+	        <script src="https://use.fontawesome.com/6ae9c28fc7.js"></script>
+
 	<body>
 		<!--Wrapper Content Start-->
 		<div class="tj-wrapper">
@@ -71,7 +112,8 @@
 						<div class="col-md-3 col-xs-12 col-sm-4">
 							<!--Logo Start-->
 							<div class="tj-logo">
-								<h1><a href="index.html">Connecting Cabs</a></h1>
+								<a href="index.html"><img src="images/logo.png" height="100px" width="200px">
+								</a>
 							</div>
 							<!--Logo End-->
 						</div>
@@ -156,7 +198,7 @@
 			
 			<!--Header Banner Content Start-->
 			<section id="home">	
-			<section class="tj-banner">
+			<section class="tj-banner" style="padding: 100px 0px;">
 				<div class="container">
 					<div class="row">
 						<!--Header Banner Caption Content Start-->
@@ -165,11 +207,9 @@
 								<div class="banner-inner bounceInRight animated delay-2s">
 									<strong>Welcome To Connecting Cabs
 									</strong>
-									<h2>Get deals on Taxi Booking for Popular Cities</h2>
+									<h2>We provide Outstation taxi service in South India.</h2>
 									<!--Header Banner Button Content Start-->		
-									<div class="banner-btns">
-										<a href="https://api.whatsapp.com/send?phone=+919008441063&text=Hello Connecting Cabs!" class="btn-style-1">WhatsApp Us <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-									</div>
+									
 									<!--Header Banner Button Content End-->		
 								</div>
 							</div>
@@ -179,9 +219,15 @@
 				</div>
 			</section></section>
 			<!--Header Banner Content End-->
-			
+			<a href="tel:+918971866065" class="float1" target="_blank">
+				<i class="fa fa-phone my-float1"></i>
+				</a>
+		  
+			<a href="https://api.whatsapp.com/send?phone=+919008441063&text=Hello Connecting Cabs!" class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float"></i>
+			</a>
 			<!--Banner Form 2 Content Start-->
-			<section class="tj-banner-form2" id="book">
+			<section class="tj-banner-form2" id="book" style="padding-top:100px ;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 col-sm-12">
@@ -737,6 +783,7 @@
 									<a href="https://wa.me/+919008441063"  class="submit-btn">WhatsApp Us <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 
 									<a href="#book"  class="submit-btn">Book Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+
 								</form>
 							</div>
 						</div>
@@ -760,6 +807,7 @@
 						
 						<div class="col-md-4 col-sm-4">
 							<div class="copyright_text">
+									<p>Bangalore / Margondhanhalli main Road</p>
 								<p>&copy; Copyrights 2021 All Rights Reserved.</p>
 							</div>
 						</div>
