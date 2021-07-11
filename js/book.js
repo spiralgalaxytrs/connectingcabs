@@ -31,6 +31,7 @@ function calcRoute() {
     $(".myAlert-top").hide(); 
   }, 5000);
 		console.log("myAlert-top");
+		window.location.href = "bc.html";
         }
     });
     }       
