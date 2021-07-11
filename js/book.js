@@ -26,6 +26,11 @@ function calcRoute() {
         request.open("post", url);
         request.send();
 	    	console.log("Sent Telegram successfully");
+		 $(".myAlert-top").show();
+  setTimeout(function(){
+    $(".myAlert-top").hide(); 
+  }, 5000);
+		console.log("myAlert-top");
         }
     });
     }       
