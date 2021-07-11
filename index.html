@@ -204,50 +204,57 @@
 											<h4>Booking Form</h4>
 											<div class="field-box">
 												<span class="fas fa-search"></span>
-												<input type="text" name="trip_pick_loc" placeholder="Pickup Locations">
+												<input type="text" name="trip_pick_loc" placeholder="Pickup Locations" id="location-1">
 											</div>
 										</div>
 										<div class="col-md-12 col-sm-12">
 											
 											<div class="field-box">
 												<span class="fas fa-search"></span>
-												<input type="text" name="trip_pick_loc" placeholder="Drop Locations">
+												<input type="text" name="trip_pick_loc" placeholder="Drop Locations" id="location-2">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="fas fa-calendar-alt"></span>
-												<input type="text" name="trip_pick_date" placeholder="Enter Your Name">
+												<input type="text" required placeholder="Your Name" class="pick-location form-controller" id="name">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="far fa-clock"></span>
-												<input type="text" name="trip_time" placeholder="Enter Your Phone number">
+												<input type="tel" required placeholder="Phone Number" placeholder="Your Number" id="p" pattern="[6-9]{1}[0-9]{9}" title="Enter Valid Phone Number">          
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="fas fa-calendar-alt"></span>
-												<input type="text" name="trip_pick_date" placeholder="Select your Date">
+												<input type="date" required placeholder="01/01/2020"  id="pickupdate">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="far fa-clock"></span>
-												<input type="text" name="trip_time" placeholder="Select Timings">
+												<input type="time" required placeholder="9:00AM"  id="pickuptime">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
-												<span class="fas fa-calendar-alt"></span>
-												<input type="text" name="trip_drop_date" placeholder="Select your Service">
+												<span class="fa fa-map-signs"></span>
+												         <select id="ser" name="ser">
+													    <option value="One-Way">One-Way</option>
+													    <option value="Round">Round</option>
+													 </select>
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
-												<span class="far fa-clock"></span>
-												<input type="text" name="drop_time" placeholder="Select your Car">
+												<span class="fa fa-automobile"></span>
+													 <select id="cars" name="cars">
+													    <option value="Sedan">Sedan</option>
+													    <option value="SUV">SUV</option>
+													    <option value="Traveller">Traveller</option>
+													  </select>
 											</div>
 										</div>
 										
