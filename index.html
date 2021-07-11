@@ -7,6 +7,9 @@
         <title>Connecting Cabs - Outstation cab provider in Bangalore</title>
 
         <!-- Css Files Start -->
+	    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/fontawesome-all.min.css" rel="stylesheet">
@@ -28,6 +31,9 @@
 		
 		{
 			scroll-behavior: smooth;
+		}
+		.alert{
+		    display: none;
 		}
 	</style>
 	<body>
@@ -195,10 +201,26 @@
 									<!--Banner Form 2 Content Start-->
 									<form method="POST" class="trip-frm2">
 										<div class="col-md-12 col-sm-12">
-											<h4>Picking Up</h4>
+											<h4>Booking Form</h4>
 											<div class="field-box">
 												<span class="fas fa-search"></span>
 												<input type="text" name="trip_pick_loc" placeholder="Pickup Locations">
+											</div>
+										</div>
+										<div class="field-box">
+												<span class="fas fa-search"></span>
+												<input type="text" name="trip_pick_loc" placeholder="Drop Locations">
+									        </div>
+										<div class="col-md-6 col-sm-6">
+											<div class="field-box">
+												<span class="fas fa-calendar-alt"></span>
+												<input type="text" name="trip_pick_date" placeholder="Enter Your Name">
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6">
+											<div class="field-box">
+												<span class="far fa-clock"></span>
+												<input type="text" name="trip_time" placeholder="Enter Your Phone number">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
@@ -213,33 +235,21 @@
 												<input type="text" name="trip_time" placeholder="Select Timings">
 											</div>
 										</div>
-										<div class="col-md-12 col-sm-12">
-											<h4>Dropping Off</h4>
-											<div class="field-box">
-												<span class="fas fa-search"></span>
-												<input type="text" name="trip_drop_loc" placeholder="Dropping Locations">
-											</div>
-										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="fas fa-calendar-alt"></span>
-												<input type="text" name="trip_drop_date" placeholder="Select your Date">
+												<input type="text" name="trip_drop_date" placeholder="Select your Service">
 											</div>
 										</div>
 										<div class="col-md-6 col-sm-6">
 											<div class="field-box">
 												<span class="far fa-clock"></span>
-												<input type="text" name="drop_time" placeholder="Select Timings">
+												<input type="text" name="drop_time" placeholder="Select your Car">
 											</div>
 										</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="field-box">
-												<input type="checkbox" name="fleet_coupon" id="fleet_coupon">
-												<label for="fleet_coupon">I Have Promotional Code</label>
-											</div>
-										</div>
+										
 										<div class="col-md-3 col-sm-3">
-											<button type="submit" class="search-btn">Search Cabs <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>	
+											<button type="submit" class="search-btn">Book Cab <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>	
 										</div>
 									</form>
 									<!--Banner Form 2 Content End-->
