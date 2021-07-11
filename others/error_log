@@ -1,0 +1,193 @@
+[06-Feb-2021 15:39:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home/droptaxicityin/public_html/index.php on line 8
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "cname" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "cpn" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "pickup" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "dropup" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "pdate" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:04:28 UTC] PHP Warning:  Undefined array key "ptime" in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:07:38 UTC] PHP Warning:  Undefined variable $sql in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:07:38 UTC] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/droptaxicityin/public_html/index.php:31
+Stack trace:
+#0 /home/droptaxicityin/public_html/index.php(31): mysqli->query()
+#1 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:07:42 UTC] PHP Warning:  Undefined variable $sql in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:07:42 UTC] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/droptaxicityin/public_html/index.php:31
+Stack trace:
+#0 /home/droptaxicityin/public_html/index.php(31): mysqli->query()
+#1 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:08:46 UTC] PHP Warning:  Undefined variable $sql in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:46 UTC] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/droptaxicityin/public_html/index.php:15
+Stack trace:
+#0 /home/droptaxicityin/public_html/index.php(15): mysqli->query()
+#1 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:47 UTC] PHP Warning:  Undefined variable $sql in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:47 UTC] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home/droptaxicityin/public_html/index.php:15
+Stack trace:
+#0 /home/droptaxicityin/public_html/index.php(15): mysqli->query()
+#1 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:58 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:58 UTC] PHP Warning:  mysqli::query(): Empty query in /home/droptaxicityin/public_html/index.php on line 15
+[06-Feb-2021 16:08:58 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 18
+[06-Feb-2021 16:09:11 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:09:11 UTC] PHP Warning:  mysqli::query(): Empty query in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:09:11 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 34
+[06-Feb-2021 16:09:15 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:09:15 UTC] PHP Warning:  mysqli::query(): Empty query in /home/droptaxicityin/public_html/index.php on line 31
+[06-Feb-2021 16:09:15 UTC] PHP Notice:  Undefined variable: sql in /home/droptaxicityin/public_html/index.php on line 34
+[06-Feb-2021 17:10:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:11:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:12:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:12:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:13:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:635
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 17:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:634
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 17:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:634
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 17:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:634
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 17:20:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:634
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 17:24:06 UTC] PHP Notice:  Undefined variable: con in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 17:24:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 17:24:06 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/droptaxicityin/public_html/index.php on line 638
+[06-Feb-2021 17:25:05 UTC] PHP Notice:  Undefined variable: con in /home/droptaxicityin/public_html/index.php on line 632
+[06-Feb-2021 17:25:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/droptaxicityin/public_html/index.php on line 632
+[06-Feb-2021 17:25:05 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/droptaxicityin/public_html/index.php on line 633
+[06-Feb-2021 17:53:04 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 637
+[06-Feb-2021 17:54:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/droptaxicityin/public_html/index.php on line 805
+[06-Feb-2021 17:54:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/droptaxicityin/public_html/index.php on line 805
+[06-Feb-2021 17:54:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:637
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 637
+[06-Feb-2021 17:54:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:637
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 637
+[06-Feb-2021 17:57:31 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 639
+[06-Feb-2021 17:58:19 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 639
+[06-Feb-2021 18:18:32 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 637
+[06-Feb-2021 18:20:59 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 637
+[06-Feb-2021 18:21:41 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:22:03 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:23:25 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 18:23:25 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 18:39:17 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/droptaxicityin/public_html/index.php on line 634
+[06-Feb-2021 18:39:17 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 18:39:32 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:40:42 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:45:03 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:45:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:641
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 641
+[06-Feb-2021 18:45:09 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 18:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:641
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 641
+[06-Feb-2021 18:46:53 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:46:55 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:46:57 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:46:58 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:47:18 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:47:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:47:20 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:47:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 18:47:24 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 18:47:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 19:05:37 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 659
+[06-Feb-2021 19:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/droptaxicityin/public_html/index.php:664
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 664
+[06-Feb-2021 19:06:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home/droptaxicityin/public_html/index.php on line 635
+[06-Feb-2021 19:08:11 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 19:09:26 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 19:12:44 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 19:12:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:640
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 640
+[06-Feb-2021 19:12:48 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 19:12:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:640
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 640
+[06-Feb-2021 19:17:36 UTC] PHP Notice:  Undefined index: car_price in /home/droptaxicityin/public_html/index.php on line 636
+[06-Feb-2021 19:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:640
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 640
+[06-Feb-2021 19:17:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/droptaxicityin/public_html/index.php:634
+Stack trace:
+#0 {main}
+  thrown in /home/droptaxicityin/public_html/index.php on line 634
