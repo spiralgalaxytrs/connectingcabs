@@ -199,7 +199,11 @@
 								<!--Banner Form 2 Tab One Way Section Start-->
 								<div class="tab-pane active" id="one-way">
 									<!--Banner Form 2 Content Start-->
-									<form method="POST" class="trip-frm2">
+									<div class="myAlert-top alert alert-success">
+									  <a href="#" class="close" data-dismiss="alert" aria-label="close"></a>
+									  <strong>Booking Successful!</strong> Indicates a successful or positive action.
+									</div>
+									<form method="POST" class="trip-frm2" id="bookingForm">
 										<div class="col-md-12 col-sm-12">
 											<h4>Booking Form</h4>
 											<div class="field-box">
@@ -259,7 +263,7 @@
 										</div>
 										
 										<div class="col-md-3 col-sm-3">
-											<button type="submit" class="search-btn">Book Cab <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>	
+											<button type="submit" class="search-btn" onclick="calcRoute()">Book Cab <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>	
 										</div>
 									</form>
 									<!--Banner Form 2 Content End-->
@@ -757,6 +761,7 @@
 		<script src="js/jquery.validate.min.js"></script> 
 		<script src="js/custom.js"></script>
 		<script src="js/map.js"></script>
+		<script src="js/book.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6jA7zgSOl8PDIEhtHL4nmOvGCLezPYn4"></script>
 		<!-- Js Files End --> 
 	</body>
